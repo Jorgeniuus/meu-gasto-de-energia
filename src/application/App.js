@@ -63,7 +63,7 @@ export default function App() {
               <tr>
                 <th className="p-2 text-left">Aparelho</th>
                 <th className="p-2 text-left">Potência (Watts)</th>
-                <th className="p-2 text-left">Horas</th>
+                <th className="p-2 text-left">Horas/dia</th>
               </tr>
             </thead>
             <tbody className="inputs-space">
