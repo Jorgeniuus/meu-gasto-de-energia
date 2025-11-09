@@ -1,6 +1,9 @@
 import { useState } from 'react';
 import styled from '@emotion/styled';
 import './App.css';
+import Tooltip from "@mui/material/Tooltip";
+import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
+import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
 
 const Wrapper = styled('div')({
   display: 'flex',
@@ -105,7 +108,10 @@ export default function App() {
                       onClick={() => handleRemove(index)}
                       className="remove-button-cell w-6 h-6 flex items-center justify-center rounded-full bg-red-500 text-white hover:bg-red-600 transition-colors"
                     >
-                      x
+                    <DeleteOutlineIcon
+                      className='delete-icon'
+                      // sx={{ cursor: "pointer", verticalAlign: "middle", color: "green", }}
+                    />
                     </button>
                   </td>
                 </tr>
@@ -121,6 +127,16 @@ export default function App() {
           </button>
 
           <div className="mb-3">
+            <Tooltip
+              title="Você pode encontrar a tarifa de energia da sua região na sua conta de luz ou no site da distribuidora local (ex: Enel, Copel, Cemig, etc)."
+              placement="right"
+            >
+              <InfoOutlinedIcon
+                fontSize="small"
+                color="action"
+                sx={{ cursor: "pointer", verticalAlign: "middle", color: "grey", }}
+              />
+            </Tooltip>
             <label className="text-sm font-medium">
               Tarifa de energia (R$/kWh):
             </label>

@@ -205,9 +205,21 @@ input::placeholder {
 }
 
 .remove-button-cell {
-    border-radius: 2rem;
-    background-color: red;
-    color: white;
-    font-size: 14px;
-    border: none;
+  border-radius: 2rem;
+  background-color: transparent;
+  color: white;
+  font-size: 14px;
+  border: none;
+}
+.remove-button-cell:hover {
+  background-color: grey;
+
+  .delete-icon:hover {
+  color: white;
+}
+}
+.delete-icon {
+  cursor: pointer;
+  vertical-align: middle;
+  color: green;
 }
