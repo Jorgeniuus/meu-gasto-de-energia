@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Jorgeniuus/meu-gasto-de-energia/static/css/main.f0b811fa.css",
-    "main.js": "/Jorgeniuus/meu-gasto-de-energia/static/js/main.75c2600b.js",
-    "index.html": "/Jorgeniuus/meu-gasto-de-energia/index.html",
-    "main.f0b811fa.css.map": "/Jorgeniuus/meu-gasto-de-energia/static/css/main.f0b811fa.css.map",
-    "main.75c2600b.js.map": "/Jorgeniuus/meu-gasto-de-energia/static/js/main.75c2600b.js.map"
+    "main.css": "/meu-gasto-de-energia/static/css/main.f0b811fa.css",
+    "main.js": "/meu-gasto-de-energia/static/js/main.75c2600b.js",
+    "index.html": "/meu-gasto-de-energia/index.html",
+    "main.f0b811fa.css.map": "/meu-gasto-de-energia/static/css/main.f0b811fa.css.map",
+    "main.75c2600b.js.map": "/meu-gasto-de-energia/static/js/main.75c2600b.js.map"
   },
   "entrypoints": [
     "static/css/main.f0b811fa.css",
